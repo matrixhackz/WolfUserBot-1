@@ -38,7 +38,7 @@ Deploy to Heroku:
 Get APP ID and API HASH from [HERE](https://my.telegram.org) and BOT TOKEN from [Bot Father](https://t.me/botfather) and then Generate stringsession by clicking on run.on.repl.it button below and then click on deploy to heroku . Before clicking on deploy to heroku just click on fork and star just below
 
 
-[![wolfuserbot logo]https://telegra.ph/file/38581d12ada5143aa72c4.jpg)](https://heroku.com/deploy)
+[![wolfuserbot logo](https://telegra.ph/file/38581d12ada5143aa72c4.jpg)](https://heroku.com/deploy)
 
 
 **Heroku Configuration**
