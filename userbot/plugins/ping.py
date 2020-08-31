@@ -63,7 +63,7 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     uptime = await wolfdef.get_readable_time((time.time() - StartTime))
-    await event.edit(f"🚀Pong!\nPing Speed: {ms}\nUserbot Uptime: {uptime}")
+    await event.edit(f"⚡𝐏𝐨𝐧𝐠⚡️\n⭐𝐏𝐢𝐧𝐠 𝐒𝐩𝐞𝐞𝐝 𝐢𝐬: {ms}\n🔥𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐔𝐩𝐭𝐢𝐦𝐞 🕒: {uptime}")
         
 CMD_HELP.update({
     "ping":
