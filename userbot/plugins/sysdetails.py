@@ -9,7 +9,7 @@ from collections import deque
 from userbot.utils import admin_cmd
 from os import remove
 from telethon import version
-from userbot import CMD_HELP, ALIVE_NAME, catdef, StartTime
+from userbot import CMD_HELP, ALIVE_NAME, wolfdef, StartTime
 from datetime import datetime  
 import time
 from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
@@ -110,12 +110,12 @@ async def sysdetails(sysd):
 
             await sysd.edit("Neofetch Result: `" + result + "`")
         except FileNotFoundError:
-            await sysd.edit("`Hello, on catuserbot  install .neofetch first kthx`")
+            await sysd.edit("`Hello, on wolfuserbot  install .neofetch first kthx`")
             
 #uptime idea and credits was from @Sur_vivor
 @borg.on(admin_cmd(pattern="uptime$"))
 async def _(event):
-    uptime = await catdef.get_readable_time((time.time() - StartTime))
+    uptime = await wolfdef.get_readable_time((time.time() - StartTime))
     OUTPUT = f"**[Wolf User Bot](tg://need_update_for_some_feature/) CPU UPTIME:**\n{uptime}"
     await event.edit(OUTPUT)            
 
