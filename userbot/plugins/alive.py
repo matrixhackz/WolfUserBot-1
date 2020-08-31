@@ -35,7 +35,6 @@ async def amireallyalive(alive):
          wolf_caption += f"**𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮, 𝐦𝐲 𝐦𝐚𝐬𝐭𝐞𝐫!\n**"
          wolf_caption += f"🍂My Master: {DEFAULTUSER}\n"
          wolf_caption += f"🍂uptime : `{uptime}\n"
-         wolf_caption += f"**✧ My Master is:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
          await borg.send_file(alive.chat_id, WOLF_IMG, caption=wolf_caption, reply_to=reply_to_id)
          await alive.delete()
     else:
@@ -47,7 +46,6 @@ async def amireallyalive(alive):
                          "**𝐈'𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮, 𝐦𝐲 𝐦𝐚𝐬𝐭𝐞𝐫!\n**"
                          f"🍂My Master: {DEFAULTUSER}\n"
                          f"🍂uptime : `{uptime}\n`"
-                         f"**✧ My Master is:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
                         )    
 
 @borg.on(sudo_cmd(pattern="sudo", allow_sudo=True))
