@@ -1,7 +1,7 @@
 {
-  "name": "Wolfuserbot",
-  "description": "Userbot created by a ┃WᴏʟꜰGᴀɴɢ┃ contact @Wolf_User_Bot for support",
-  "logo": "https://telegra.ph/file/277e2767055da1a50bea9.jpg",
+  "name": "Ionix userbot",
+  "description": "Userbot created by a  @xclone contact @ionix_ot for support",
+  "logo": "https://telegra.ph/file/146232d08048652cb7ca2.jpg"
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/WolfGangIndia/WolfUserBot/",
+  "repository": "https://github.com/matrixhackz/Ionix-userbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
@@ -29,12 +29,12 @@
     },
     "ALIVE_PIC": {
       "description": "put here any telegraph links for alive pic.",
-      "value": "https://telegra.ph/file/277e2767055da1a50bea9.jpg",
+      "value": "https://telegra.ph/file/146232d08048652cb7ca2.jpg",
       "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph links for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/277e2767055da1a50bea9.jpg",
+      "value": "https://telegra.https://telegra.ph/file/146232d08048652cb7ca2.jpgg",
       "required": false  
     },
     "APP_ID": {
